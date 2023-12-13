@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33927.289
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.IvashkinaKE.Sprint7.Project.V3.Lib", "Tyuiu.IvashkinaKE.Sprint7.Project.V3.Lib\Tyuiu.IvashkinaKE.Sprint7.Project.V3.Lib.csproj", "{3F531274-766E-41D0-BC03-0D442F053ED4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.IvashkinaKE.Sprint7.Project.V3.Test", "Tyuiu.IvashkinaKE.Sprint7.Project.V3.Test\Tyuiu.IvashkinaKE.Sprint7.Project.V3.Test.csproj", "{0298C31D-0F0D-4081-B9BD-3357797404B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.IvashkinaKE.Sprint7.Project.V3", "Tyuiu.IvashkinaKE.Sprint7.Project.V3\Tyuiu.IvashkinaKE.Sprint7.Project.V3.csproj", "{C8E178B2-0461-4C22-B1F6-A74D5FA94E42}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3F531274-766E-41D0-BC03-0D442F053ED4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F531274-766E-41D0-BC03-0D442F053ED4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F531274-766E-41D0-BC03-0D442F053ED4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F531274-766E-41D0-BC03-0D442F053ED4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0298C31D-0F0D-4081-B9BD-3357797404B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0298C31D-0F0D-4081-B9BD-3357797404B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0298C31D-0F0D-4081-B9BD-3357797404B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0298C31D-0F0D-4081-B9BD-3357797404B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8E178B2-0461-4C22-B1F6-A74D5FA94E42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8E178B2-0461-4C22-B1F6-A74D5FA94E42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8E178B2-0461-4C22-B1F6-A74D5FA94E42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8E178B2-0461-4C22-B1F6-A74D5FA94E42}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9B6EB777-6BEF-496C-B3BD-7FFD1EEC4F4A}
+	EndGlobalSection
+EndGlobal
