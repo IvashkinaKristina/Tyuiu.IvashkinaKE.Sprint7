@@ -64,6 +64,12 @@
     <Compile Include="FormAboutUniversity.Designer.cs">
       <DependentUpon>FormAboutUniversity.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormTeachers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTeachers.Designer.cs">
+      <DependentUpon>FormTeachers.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -74,6 +80,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormAboutUniversity.resx">
       <DependentUpon>FormAboutUniversity.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTeachers.resx">
+      <DependentUpon>FormTeachers.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -106,6 +115,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\photo_2023-11-22_13-01-51.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Tyuiu.IvashkinaKE.Sprint7.Project.V3.Lib\Tyuiu.IvashkinaKE.Sprint7.Project.V3.Lib.csproj">
+      <Project>{3f531274-766e-41d0-bc03-0d442f053ed4}</Project>
+      <Name>Tyuiu.IvashkinaKE.Sprint7.Project.V3.Lib</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

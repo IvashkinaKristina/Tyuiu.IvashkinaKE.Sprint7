@@ -8,6 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+using Tyuiu.IvashkinaKE.Sprint7.Project.V3.Lib;
+
 namespace Tyuiu.IvashkinaKE.Sprint7.Project.V3
 {
     public partial class FormAbout : Form
@@ -15,6 +17,11 @@ namespace Tyuiu.IvashkinaKE.Sprint7.Project.V3
         public FormAbout()
         {
             InitializeComponent();
+        }
+
+        private void buttonOk_IKE_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
