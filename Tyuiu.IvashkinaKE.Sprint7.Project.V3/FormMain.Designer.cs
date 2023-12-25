@@ -57,11 +57,11 @@ namespace Tyuiu.IvashkinaKE.Sprint7.Project.V3
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox1.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBox1.ForeColor = System.Drawing.Color.Peru;
-            this.textBox1.Location = new System.Drawing.Point(12, 12);
+            this.textBox1.Location = new System.Drawing.Point(182, 10);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.ReadOnly = true;
-            this.textBox1.Size = new System.Drawing.Size(776, 36);
+            this.textBox1.Size = new System.Drawing.Size(667, 36);
             this.textBox1.TabIndex = 0;
             this.textBox1.Text = "Тюменский Индустриальный Университет";
             // 
@@ -84,7 +84,7 @@ namespace Tyuiu.IvashkinaKE.Sprint7.Project.V3
             this.buttonTeachers_IKE.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonTeachers_IKE.Font = new System.Drawing.Font("Times New Roman", 10F);
             this.buttonTeachers_IKE.ForeColor = System.Drawing.SystemColors.MenuText;
-            this.buttonTeachers_IKE.Location = new System.Drawing.Point(635, 298);
+            this.buttonTeachers_IKE.Location = new System.Drawing.Point(635, 287);
             this.buttonTeachers_IKE.Name = "buttonTeachers_IKE";
             this.buttonTeachers_IKE.Size = new System.Drawing.Size(153, 44);
             this.buttonTeachers_IKE.TabIndex = 3;
@@ -98,7 +98,7 @@ namespace Tyuiu.IvashkinaKE.Sprint7.Project.V3
             this.buttonUniversity_IKE.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonUniversity_IKE.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.buttonUniversity_IKE.ForeColor = System.Drawing.SystemColors.MenuText;
-            this.buttonUniversity_IKE.Location = new System.Drawing.Point(635, 348);
+            this.buttonUniversity_IKE.Location = new System.Drawing.Point(635, 342);
             this.buttonUniversity_IKE.Name = "buttonUniversity_IKE";
             this.buttonUniversity_IKE.Size = new System.Drawing.Size(153, 59);
             this.buttonUniversity_IKE.TabIndex = 2;
@@ -112,7 +112,7 @@ namespace Tyuiu.IvashkinaKE.Sprint7.Project.V3
             this.buttonHelp_IKE.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonHelp_IKE.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.buttonHelp_IKE.ForeColor = System.Drawing.SystemColors.MenuText;
-            this.buttonHelp_IKE.Location = new System.Drawing.Point(800, 354);
+            this.buttonHelp_IKE.Location = new System.Drawing.Point(800, 348);
             this.buttonHelp_IKE.Name = "buttonHelp_IKE";
             this.buttonHelp_IKE.Size = new System.Drawing.Size(54, 47);
             this.buttonHelp_IKE.TabIndex = 1;

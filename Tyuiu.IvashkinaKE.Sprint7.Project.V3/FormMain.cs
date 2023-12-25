@@ -41,12 +41,6 @@ namespace Tyuiu.IvashkinaKE.Sprint7.Project.V3
                 FormTeachers formAbout = new FormTeachers();
                 formAbout.ShowDialog();
             }
-
-        
-
-            
-
-
         }
     }
 
