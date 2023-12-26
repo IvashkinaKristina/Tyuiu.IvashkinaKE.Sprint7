@@ -36,5 +36,10 @@ namespace Tyuiu.IvashkinaKE.Sprint7.Project.V3
             }
 
         }
+
+        private void buttonCloseChart_IKE_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

@@ -30,52 +30,52 @@ namespace Tyuiu.IvashkinaKE.Sprint7.Project.V3
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormAboutUniversity));
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.textBoxNameUniversity_IKE = new System.Windows.Forms.TextBox();
+            this.textBoxAboutUniversity_IKE = new System.Windows.Forms.TextBox();
+            this.button1_IKE = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // textBox1
+            // textBoxNameUniversity_IKE
             // 
-            this.textBox1.BackColor = System.Drawing.Color.Peru;
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox1.Font = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox1.ForeColor = System.Drawing.Color.Moccasin;
-            this.textBox1.Location = new System.Drawing.Point(0, 27);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.ReadOnly = true;
-            this.textBox1.Size = new System.Drawing.Size(698, 56);
-            this.textBox1.TabIndex = 0;
-            this.textBox1.Text = "Тюменский Индустриальный Университет";
+            this.textBoxNameUniversity_IKE.BackColor = System.Drawing.Color.Peru;
+            this.textBoxNameUniversity_IKE.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBoxNameUniversity_IKE.Font = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBoxNameUniversity_IKE.ForeColor = System.Drawing.Color.Moccasin;
+            this.textBoxNameUniversity_IKE.Location = new System.Drawing.Point(0, 27);
+            this.textBoxNameUniversity_IKE.Multiline = true;
+            this.textBoxNameUniversity_IKE.Name = "textBoxNameUniversity_IKE";
+            this.textBoxNameUniversity_IKE.ReadOnly = true;
+            this.textBoxNameUniversity_IKE.Size = new System.Drawing.Size(698, 56);
+            this.textBoxNameUniversity_IKE.TabIndex = 0;
+            this.textBoxNameUniversity_IKE.Text = "Тюменский Индустриальный Университет";
             // 
-            // textBox2
+            // textBoxAboutUniversity_IKE
             // 
-            this.textBox2.BackColor = System.Drawing.Color.Peru;
-            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox2.ForeColor = System.Drawing.Color.Moccasin;
-            this.textBox2.Location = new System.Drawing.Point(17, 89);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.ReadOnly = true;
-            this.textBox2.Size = new System.Drawing.Size(661, 214);
-            this.textBox2.TabIndex = 1;
-            this.textBox2.Text = resources.GetString("textBox2.Text");
+            this.textBoxAboutUniversity_IKE.BackColor = System.Drawing.Color.Peru;
+            this.textBoxAboutUniversity_IKE.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBoxAboutUniversity_IKE.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBoxAboutUniversity_IKE.ForeColor = System.Drawing.Color.Moccasin;
+            this.textBoxAboutUniversity_IKE.Location = new System.Drawing.Point(17, 89);
+            this.textBoxAboutUniversity_IKE.Multiline = true;
+            this.textBoxAboutUniversity_IKE.Name = "textBoxAboutUniversity_IKE";
+            this.textBoxAboutUniversity_IKE.ReadOnly = true;
+            this.textBoxAboutUniversity_IKE.Size = new System.Drawing.Size(661, 214);
+            this.textBoxAboutUniversity_IKE.TabIndex = 1;
+            this.textBoxAboutUniversity_IKE.Text = resources.GetString("textBoxAboutUniversity_IKE.Text");
             // 
-            // button1
+            // button1_IKE
             // 
-            this.button1.BackColor = System.Drawing.Color.Moccasin;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Times New Roman", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button1.ForeColor = System.Drawing.SystemColors.MenuText;
-            this.button1.Location = new System.Drawing.Point(611, 261);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(86, 35);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "Ок";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.button1_IKE.BackColor = System.Drawing.Color.Moccasin;
+            this.button1_IKE.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1_IKE.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button1_IKE.ForeColor = System.Drawing.SystemColors.MenuText;
+            this.button1_IKE.Location = new System.Drawing.Point(611, 261);
+            this.button1_IKE.Name = "button1_IKE";
+            this.button1_IKE.Size = new System.Drawing.Size(86, 35);
+            this.button1_IKE.TabIndex = 2;
+            this.button1_IKE.Text = "Ок";
+            this.button1_IKE.UseVisualStyleBackColor = false;
+            this.button1_IKE.Click += new System.EventHandler(this.button1_Click);
             // 
             // FormAboutUniversity
             // 
@@ -83,9 +83,9 @@ namespace Tyuiu.IvashkinaKE.Sprint7.Project.V3
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Peru;
             this.ClientSize = new System.Drawing.Size(702, 301);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.button1_IKE);
+            this.Controls.Add(this.textBoxAboutUniversity_IKE);
+            this.Controls.Add(this.textBoxNameUniversity_IKE);
             this.MaximumSize = new System.Drawing.Size(720, 348);
             this.MinimumSize = new System.Drawing.Size(720, 348);
             this.Name = "FormAboutUniversity";
@@ -98,8 +98,8 @@ namespace Tyuiu.IvashkinaKE.Sprint7.Project.V3
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TextBox textBoxNameUniversity_IKE;
+        private System.Windows.Forms.TextBox textBoxAboutUniversity_IKE;
+        private System.Windows.Forms.Button button1_IKE;
     }
 }

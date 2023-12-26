@@ -117,7 +117,7 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="textBox2.Text" xml:space="preserve">
+  <data name="textBoxAboutUniversity_IKE.Text" xml:space="preserve">
     <value>Это высшее учебное заведение Тюмени. 
 Один из региональных опорных университетов. ТИУ включает все уровни образования – от среднего общего, среднего профессионального и высшего образования, до докторантуры и программ бизнес-образования.
 

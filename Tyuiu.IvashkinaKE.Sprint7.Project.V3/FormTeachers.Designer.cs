@@ -33,6 +33,7 @@ namespace Tyuiu.IvashkinaKE.Sprint7.Project.V3
             this.panelTop_IKE = new System.Windows.Forms.Panel();
             this.textBoxTop_KE = new System.Windows.Forms.TextBox();
             this.panelFill_IKE = new System.Windows.Forms.Panel();
+            this.buttonOpenChart_IKE = new System.Windows.Forms.Button();
             this.buttonDelete_IKE = new System.Windows.Forms.Button();
             this.buttonAdd_IKE = new System.Windows.Forms.Button();
             this.labelSearch_IKE = new System.Windows.Forms.Label();
@@ -50,7 +51,6 @@ namespace Tyuiu.IvashkinaKE.Sprint7.Project.V3
             this.toolTipSorting_IKE = new System.Windows.Forms.ToolTip(this.components);
             this.openFileDialog_IKE = new System.Windows.Forms.OpenFileDialog();
             this.saveFileDialog_IKE = new System.Windows.Forms.SaveFileDialog();
-            this.buttonOpenChart_IKE = new System.Windows.Forms.Button();
             this.panelTop_IKE.SuspendLayout();
             this.panelFill_IKE.SuspendLayout();
             this.groupBoxSort_IKE.SuspendLayout();
@@ -102,6 +102,21 @@ namespace Tyuiu.IvashkinaKE.Sprint7.Project.V3
             this.panelFill_IKE.Size = new System.Drawing.Size(1261, 643);
             this.panelFill_IKE.TabIndex = 1;
             // 
+            // buttonOpenChart_IKE
+            // 
+            this.buttonOpenChart_IKE.BackColor = System.Drawing.Color.Moccasin;
+            this.buttonOpenChart_IKE.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonOpenChart_IKE.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonOpenChart_IKE.ForeColor = System.Drawing.SystemColors.MenuText;
+            this.buttonOpenChart_IKE.Location = new System.Drawing.Point(1009, 576);
+            this.buttonOpenChart_IKE.Name = "buttonOpenChart_IKE";
+            this.buttonOpenChart_IKE.Size = new System.Drawing.Size(112, 54);
+            this.buttonOpenChart_IKE.TabIndex = 11;
+            this.buttonOpenChart_IKE.Text = "Открыть статистику";
+            this.toolTipSorting_IKE.SetToolTip(this.buttonOpenChart_IKE, "Просмотреть статистику");
+            this.buttonOpenChart_IKE.UseVisualStyleBackColor = false;
+            this.buttonOpenChart_IKE.Click += new System.EventHandler(this.buttonOpenChart_IKE_Click);
+            // 
             // buttonDelete_IKE
             // 
             this.buttonDelete_IKE.BackColor = System.Drawing.Color.Moccasin;
@@ -113,6 +128,7 @@ namespace Tyuiu.IvashkinaKE.Sprint7.Project.V3
             this.buttonDelete_IKE.Size = new System.Drawing.Size(112, 54);
             this.buttonDelete_IKE.TabIndex = 10;
             this.buttonDelete_IKE.Text = "Удалить строку";
+            this.toolTipSorting_IKE.SetToolTip(this.buttonDelete_IKE, "Нажмите для удаления строки в списке");
             this.buttonDelete_IKE.UseVisualStyleBackColor = false;
             this.buttonDelete_IKE.Click += new System.EventHandler(this.buttonDelete_IKE_Click);
             // 
@@ -127,6 +143,7 @@ namespace Tyuiu.IvashkinaKE.Sprint7.Project.V3
             this.buttonAdd_IKE.Size = new System.Drawing.Size(112, 54);
             this.buttonAdd_IKE.TabIndex = 9;
             this.buttonAdd_IKE.Text = "Добавить строку";
+            this.toolTipSorting_IKE.SetToolTip(this.buttonAdd_IKE, "Нажмите для добавления строки в список");
             this.buttonAdd_IKE.UseVisualStyleBackColor = false;
             this.buttonAdd_IKE.Click += new System.EventHandler(this.buttonAdd_IKE_Cick);
             // 
@@ -160,7 +177,7 @@ namespace Tyuiu.IvashkinaKE.Sprint7.Project.V3
             this.buttonDo_IKE.Size = new System.Drawing.Size(112, 54);
             this.buttonDo_IKE.TabIndex = 3;
             this.buttonDo_IKE.Text = "Открыть файл";
-            this.toolTipSorting_IKE.SetToolTip(this.buttonDo_IKE, "Можете открыть файл");
+            this.toolTipSorting_IKE.SetToolTip(this.buttonDo_IKE, "Нажмите для открытия файла");
             this.buttonDo_IKE.UseVisualStyleBackColor = false;
             this.buttonDo_IKE.Click += new System.EventHandler(this.buttonDo_IKE_Click);
             // 
@@ -175,7 +192,7 @@ namespace Tyuiu.IvashkinaKE.Sprint7.Project.V3
             this.buttonSaveFile_IKE.Size = new System.Drawing.Size(111, 54);
             this.buttonSaveFile_IKE.TabIndex = 2;
             this.buttonSaveFile_IKE.Text = "Сохранить файл";
-            this.toolTipSorting_IKE.SetToolTip(this.buttonSaveFile_IKE, "Сохранить файл");
+            this.toolTipSorting_IKE.SetToolTip(this.buttonSaveFile_IKE, "Нажмите для сохранения файла");
             this.buttonSaveFile_IKE.UseVisualStyleBackColor = false;
             this.buttonSaveFile_IKE.Click += new System.EventHandler(this.buttonSaveFile_IKE_Click);
             // 
@@ -283,21 +300,6 @@ namespace Tyuiu.IvashkinaKE.Sprint7.Project.V3
             // openFileDialog_IKE
             // 
             this.openFileDialog_IKE.FileName = "openFileDialog1";
-            // 
-            // buttonOpenChart_IKE
-            // 
-            this.buttonOpenChart_IKE.BackColor = System.Drawing.Color.Moccasin;
-            this.buttonOpenChart_IKE.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonOpenChart_IKE.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonOpenChart_IKE.ForeColor = System.Drawing.SystemColors.MenuText;
-            this.buttonOpenChart_IKE.Location = new System.Drawing.Point(1009, 576);
-            this.buttonOpenChart_IKE.Name = "buttonOpenChart_IKE";
-            this.buttonOpenChart_IKE.Size = new System.Drawing.Size(112, 54);
-            this.buttonOpenChart_IKE.TabIndex = 11;
-            this.buttonOpenChart_IKE.Text = "Открыть график";
-            this.toolTipSorting_IKE.SetToolTip(this.buttonOpenChart_IKE, "Просмотреть статистику");
-            this.buttonOpenChart_IKE.UseVisualStyleBackColor = false;
-            this.buttonOpenChart_IKE.Click += new System.EventHandler(this.buttonOpenChart_IKE_Click);
             // 
             // FormTeachers
             // 

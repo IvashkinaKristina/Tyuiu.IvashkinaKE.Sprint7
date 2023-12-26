@@ -29,13 +29,14 @@ namespace Tyuiu.IvashkinaKE.Sprint7.Project.V3
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.buttonBuildChart_IKE = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.chartResult_IKE = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            this.buttonBuildChart_IKE = new System.Windows.Forms.Button();
+            this.buttonCloseChart_IKE = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chartResult_IKE)).BeginInit();
@@ -44,12 +45,27 @@ namespace Tyuiu.IvashkinaKE.Sprint7.Project.V3
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Peru;
+            this.panel1.Controls.Add(this.buttonCloseChart_IKE);
             this.panel1.Controls.Add(this.buttonBuildChart_IKE);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(800, 100);
             this.panel1.TabIndex = 0;
+            // 
+            // buttonBuildChart_IKE
+            // 
+            this.buttonBuildChart_IKE.BackColor = System.Drawing.Color.Moccasin;
+            this.buttonBuildChart_IKE.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonBuildChart_IKE.Font = new System.Drawing.Font("Times New Roman", 10F);
+            this.buttonBuildChart_IKE.ForeColor = System.Drawing.SystemColors.MenuText;
+            this.buttonBuildChart_IKE.Location = new System.Drawing.Point(12, 29);
+            this.buttonBuildChart_IKE.Name = "buttonBuildChart_IKE";
+            this.buttonBuildChart_IKE.Size = new System.Drawing.Size(114, 52);
+            this.buttonBuildChart_IKE.TabIndex = 4;
+            this.buttonBuildChart_IKE.Text = "Составить график";
+            this.buttonBuildChart_IKE.UseVisualStyleBackColor = false;
+            this.buttonBuildChart_IKE.Click += new System.EventHandler(this.buttonBuildChart_IKE_Click);
             // 
             // panel2
             // 
@@ -65,35 +81,35 @@ namespace Tyuiu.IvashkinaKE.Sprint7.Project.V3
             this.chartResult_IKE.BackColor = System.Drawing.Color.Moccasin;
             this.chartResult_IKE.BackGradientStyle = System.Windows.Forms.DataVisualization.Charting.GradientStyle.TopBottom;
             this.chartResult_IKE.BackSecondaryColor = System.Drawing.Color.Snow;
-            chartArea1.Name = "ChartArea1";
-            this.chartResult_IKE.ChartAreas.Add(chartArea1);
+            chartArea2.Name = "ChartArea1";
+            this.chartResult_IKE.ChartAreas.Add(chartArea2);
             this.chartResult_IKE.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend1.Name = "Legend1";
-            this.chartResult_IKE.Legends.Add(legend1);
+            legend2.Name = "Legend1";
+            this.chartResult_IKE.Legends.Add(legend2);
             this.chartResult_IKE.Location = new System.Drawing.Point(0, 0);
             this.chartResult_IKE.Name = "chartResult_IKE";
             this.chartResult_IKE.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Berry;
-            series1.ChartArea = "ChartArea1";
-            series1.Legend = "Legend1";
-            series1.Name = "Series1";
-            this.chartResult_IKE.Series.Add(series1);
+            series2.ChartArea = "ChartArea1";
+            series2.Legend = "Legend1";
+            series2.Name = "Series1";
+            this.chartResult_IKE.Series.Add(series2);
             this.chartResult_IKE.Size = new System.Drawing.Size(800, 350);
             this.chartResult_IKE.TabIndex = 0;
             this.chartResult_IKE.Text = "chart1";
             // 
-            // buttonBuildChart_IKE
+            // buttonCloseChart_IKE
             // 
-            this.buttonBuildChart_IKE.BackColor = System.Drawing.Color.Moccasin;
-            this.buttonBuildChart_IKE.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonBuildChart_IKE.Font = new System.Drawing.Font("Times New Roman", 10F);
-            this.buttonBuildChart_IKE.ForeColor = System.Drawing.SystemColors.MenuText;
-            this.buttonBuildChart_IKE.Location = new System.Drawing.Point(635, 12);
-            this.buttonBuildChart_IKE.Name = "buttonBuildChart_IKE";
-            this.buttonBuildChart_IKE.Size = new System.Drawing.Size(153, 70);
-            this.buttonBuildChart_IKE.TabIndex = 4;
-            this.buttonBuildChart_IKE.Text = "Открыть график";
-            this.buttonBuildChart_IKE.UseVisualStyleBackColor = false;
-            this.buttonBuildChart_IKE.Click += new System.EventHandler(this.buttonBuildChart_IKE_Click);
+            this.buttonCloseChart_IKE.BackColor = System.Drawing.Color.Moccasin;
+            this.buttonCloseChart_IKE.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonCloseChart_IKE.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonCloseChart_IKE.ForeColor = System.Drawing.SystemColors.MenuText;
+            this.buttonCloseChart_IKE.Location = new System.Drawing.Point(132, 30);
+            this.buttonCloseChart_IKE.Name = "buttonCloseChart_IKE";
+            this.buttonCloseChart_IKE.Size = new System.Drawing.Size(114, 52);
+            this.buttonCloseChart_IKE.TabIndex = 5;
+            this.buttonCloseChart_IKE.Text = "Закрыть";
+            this.buttonCloseChart_IKE.UseVisualStyleBackColor = false;
+            this.buttonCloseChart_IKE.Click += new System.EventHandler(this.buttonCloseChart_IKE_Click);
             // 
             // FormChart
             // 
@@ -103,7 +119,8 @@ namespace Tyuiu.IvashkinaKE.Sprint7.Project.V3
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Name = "FormChart";
-            this.Text = "FormChart";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Статистика";
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.chartResult_IKE)).EndInit();
@@ -117,5 +134,6 @@ namespace Tyuiu.IvashkinaKE.Sprint7.Project.V3
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.DataVisualization.Charting.Chart chartResult_IKE;
         private System.Windows.Forms.Button buttonBuildChart_IKE;
+        private System.Windows.Forms.Button buttonCloseChart_IKE;
     }
 }
